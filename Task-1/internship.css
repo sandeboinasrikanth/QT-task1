@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    place-content: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(255, 153, 221)
+    ;
+    
+}
+.internship-form{
+    margin-left: 550px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 380px;
+    background-color: rgb(179, 179, 230);
+    padding: 10px;
+    border-width: 10px solid ;
+    border-radius: 10px;
+    border: none;
+}
+
+input{
+    /* background-color: rgb(236, 236, 249); */
+    border: none;
+
+}
+.input{
+    height: 30px;
+    width: 300px;
+    font-size: 16px;
+    background-color: rgb(236, 236, 249);
+    border: none;
+    border-radius: 3px;  
+}
+.text-area{
+    border: none;
+    width: 300px;
+    height: 100px; 
+    background-color: rgb(236, 236, 249);
+    border-radius: 3px;
+
+}
+.option{
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(236, 236, 249);
+}
+.btn{
+    margin-left: 120px;
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color:rgb(102, 102, 255) ;
+    border-radius: 10px;
+    color: #fff;
+}
